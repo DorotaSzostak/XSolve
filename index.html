@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>XSolve</title>
+</head>
+    <body>
+    <section class="main">   
+<!--
+    <select id="search-type">
+        <option value="id">Id</option>
+        <option value="firstName">First Name</option>
+        <option value="lastName">Last Name</option>
+        <option value="dateOfBirth">Birthday</option>
+        <option value="company">Company</option>
+        <option value="note">Note</option>
+    </select>
+-->
+    <table class="table" id="myTable">
+        <thead>
+            <tr>
+            <th class="numberSort">ID<input type="text" id="0" name="search"></th>
+            <th class="nameSort">First Name <input type="text" id="1" name="search" class="column-filter"></th>
+            <th class="nameSort">Last Name <input type="text" id="2" name="search" class="column-filter"></th>
+            <th class="dateSort">Date of Birth<input type="text" id="3" name="search" class="column-filter"></th>
+            <th class="nameSort">Company<input type="text" id="4" name="search" class="column-filter"></th>
+            <th class="numberSort">Note<input type="text" id="5" name="search" class="column-filter"></th>
+            </tr>
+        </thead>
+    </table>
+    </section>
+
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src="scripts/createTable.js"></script>
+    </body>
+</html>
